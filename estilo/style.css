@@ -64,7 +64,7 @@ section#carta {
     background-position: right center;
     background-size: cover;
     
-
+ 
 }
 section#joana {
     background-image: url('../estilo/fotos/estilo/foto1.png');
@@ -85,16 +85,22 @@ section.normal p {
     font-family: var(--fonte3);
 
 }
-section.pag2 {
+section#imgpag2 {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+}
+section#pag2 {
      padding-top: 10vh;
      padding-bottom: 10vh;
      line-height: 2em;
      padding-left: 30px;
      font-family: var(--fonte3);
      font-size: 5vw; 
-     background-color: rgba(0, 0, 0, 0.597);
+     background-color: gray;
      color: white;
-     box-shadow: inset 6px 6px 13px 0px rgba, rgba(0, 0, 0, 0.549);
      background-attachment: fixed;   
 }
 
