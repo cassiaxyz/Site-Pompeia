@@ -61,14 +61,14 @@ section.imagem {
 
 }
 section#carta {
-    background-image: url('../estilo/fotos/estilo/foto4.png');
+    background-image: url('../estilo/fotos/estilo/papelouro.jpg');
     background-position: right center;
     background-size: cover;
     
  
 }
 section#joana {
-    background-image: url('../estilo/fotos/estilo/foto1.png');
+    background-image: url('../estilo/fotos/estilo/papel.jpg');
     background-size: cover;
 
 }
