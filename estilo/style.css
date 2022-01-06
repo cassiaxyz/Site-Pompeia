@@ -76,7 +76,7 @@ section.imagem p{
     width: 400px;
     background-color: gray(0, 0, 0, 0.131);
     padding-left: 30px;
-    padding-right: 30px;
+   
     font-family: var(--fonte3);
     
 
@@ -85,7 +85,7 @@ section.normal p {
     background-color: white;
     color: black;
     padding-left: 30px;
-    padding-right: 30px;
+   
     font-family:'Pushster', cursive; 
     background-size: cover;
   
