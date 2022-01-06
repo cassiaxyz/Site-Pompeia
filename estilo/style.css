@@ -54,9 +54,9 @@ section p {
 
 }
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.597);
+    background-color: gray(0, 0, 0, 0.597);
     color: white;
-    box-shadow: inset 6px 6px 11px 0px rgba, rgba(0, 0, 0, 0.549);
+    box-shadow: inset 6px 6px 13px 0px rgba, gray(0, 0, 0, 0.549);
     background-attachment: fixed;
 
 }
@@ -74,8 +74,9 @@ section#joana {
 }
 section.imagem p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.131);
+    background-color: gray(0, 0, 0, 0.131);
     padding-left: 30px;
+    padding-right: 30px;
     font-family: var(--fonte3);
     
 
@@ -84,7 +85,10 @@ section.normal p {
     background-color: white;
     color: black;
     padding-left: 30px;
-    font-family:'Pushster', cursive;   
+    padding-right: 30px;
+    font-family:'Pushster', cursive; 
+    background-size: cover;
+  
 
 }
 section#imgpag2 {
@@ -112,6 +116,7 @@ section#pag2 {
 footer   {
     padding: 50px;
     padding-left: 50px;
+    padding-right: 50px;
     background-color: rgba(255, 255, 0, 0.549);
     color: white;
     text-align: center;
