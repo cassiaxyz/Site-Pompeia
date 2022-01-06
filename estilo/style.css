@@ -5,14 +5,14 @@
 :root {
     --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
     --fonte2:  'Passion One', cursive;
-    --fonte3:  'Berkshire Swash', cursive;
+    --fonte3:  Arial, Helvetica, sans-serif;
     --fonte4:  'PT Sans', sans-serif;
 }
 * {
         margin: 0px;
         padding: 0px;
         font-size: 1em;
-
+       
 }
 html, body {
     min-height: 100vh;
@@ -44,7 +44,7 @@ section  {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5vw;
+    font-size: 3em;
     
 
 }
@@ -56,13 +56,13 @@ section p {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.597);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba, rgba(0, 0, 0, 0.549);
+    box-shadow: inset 6px 6px 11px 0px rgba, rgba(0, 0, 0, 0.549);
     background-attachment: fixed;
 
 }
 section#carta {
     background-image: url('../estilo/fotos/estilo/papelouro.jpg');
-    background-position: right center;
+    background-position: center;
     background-size: cover;
     
  
@@ -77,6 +77,7 @@ section.imagem p{
     background-color: rgba(0, 0, 0, 0.131);
     padding-left: 30px;
     font-family: var(--fonte3);
+    
 
 }
 section.normal p {
